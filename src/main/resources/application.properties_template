@@ -1,0 +1,13 @@
+# Make the timezone UTC so dates are correct
+spring.jpa.properties.hibernate.jdbc.time_zone=UTC
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://nnn.nnn.nnn.nnn:3306/DBNAMEHERE
+spring.datasource.username=dbuserid
+spring.datasource.password=dbpassword
+spring.jpa.show-sql=true
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
